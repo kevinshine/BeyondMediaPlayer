@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context=".activitiy.MainActivity">
+
+    <item
+        android:id="@+id/action_explorer"
+        android:title="@string/action_explorer"
+        android:icon="@mipmap/ic_explorer"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/action_dlna"
+        android:title="@string/action_dlna"
+        android:icon="@mipmap/ic_dlna_withtext"
+        app:showAsAction="ifRoom"/>
+
+</menu>

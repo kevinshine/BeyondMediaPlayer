@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nnf_item_container"
+    android:layout_width="match_parent"
+    android:layout_height="52dp"
+    android:background="?selectableItemBackground"
+    android:focusable="true"
+    android:nextFocusLeft="@+id/nnf_button_cancel"
+    android:nextFocusRight="@+id/nnf_button_ok"
+    android:orientation="horizontal"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp">
+
+    <ImageView
+        android:id="@+id/item_icon"
+        android:layout_width="40dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical"
+        android:background="@android:color/transparent"
+        android:padding="8dp"
+        android:src="@drawable/ic_document" />
+
+    <TextView
+        android:id="@android:id/text1"
+        style="?android:textAppearance"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:ellipsize="end"
+        android:gravity="center_vertical"
+        android:maxLines="2"
+        android:singleLine="false"
+        android:text="@string/nnf_name"
+        android:textColor="@android:color/black" />
+
+    <CheckBox
+        android:id="@+id/checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:nextFocusLeft="@id/nnf_item_container"
+        android:nextFocusRight="@+id/nnf_button_ok"
+        android:paddingEnd="8dp"
+        android:paddingRight="8dp"
+        tools:ignore="RtlSymmetry" />
+
+</LinearLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/filepicker_item_header"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:gravity="left"
+    android:minHeight="52dp"
+    android:focusable="true"
+    android:background="?selectableItemBackground"
+    android:nextFocusLeft="@+id/nnf_button_cancel"
+    android:nextFocusRight="@+id/nnf_button_ok"
+    android:paddingLeft="10dp"
+    android:paddingRight="16dp">
+
+    <FrameLayout
+        android:id="@+id/iconframe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="16dp">
+
+        <ImageView
+            android:id="@+id/item_icon"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_vertical"
+            android:background="@android:color/transparent"
+            android:padding="8dp"
+            android:focusable="true"
+            android:src="@drawable/ic_arrow_up" />
+    </FrameLayout>
+
+    <TextView
+        android:id="@android:id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@id/iconframe"
+        android:clickable="false"
+        android:ellipsize="middle"
+        android:gravity="center_vertical"
+        android:singleLine="true"
+        android:textColor="@android:color/black"
+        android:textSize="17sp" />
+</RelativeLayout>

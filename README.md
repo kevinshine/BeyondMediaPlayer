@@ -4,6 +4,7 @@ BeyondMediaPlayer aims to provide a powerful, easy-to-use player for video playi
 
 ## Features
  * Include ijkplayer(based on ffmpeg)
+ * Support for most video formats(AVI,MKV,MOV,RMVB...)
  * DLNA/UPnP support
  * External subtitle support
 
